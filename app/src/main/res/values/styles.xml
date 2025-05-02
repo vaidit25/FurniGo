@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--    </style>-->
+        <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+            <item name="android:textSize">25sp</item>
+<!--            <item name="android:textStyle">bold</item>-->
+            <item name="android:textStyle">italic</item>
+            <item name="android:fontFamily">sans-serif-condensed-medium</item>
+<!--                <item name="android:fontFamily">fantasy</item>-->
+
+        </style>
+</resources>

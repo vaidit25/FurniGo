@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/tv_mobile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Mobile Number"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle Text -->
+    <TextView
+        android:id="@+id/tv_mobile_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We will send an OTP to verify your number"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:paddingHorizontal="24dp" />
+
+    <!-- Mobile Number Input Field -->
+    <EditText
+        android:id="@+id/et_mobile_number"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your mobile number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textSize="18sp"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Proceed Button -->
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:backgroundTint="#007BFF"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
+

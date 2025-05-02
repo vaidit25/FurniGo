@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <string android:name="app_name"
+        tools:ignore="ExtraText">FurniGo</string>
+    <string android:name="screen1"></string>
+    <string android:name="screen2"></string>
+    <string android:name="screen3"></string>
+    <string android:name="screen1desc">Furniture For Now or Forever</string>
+    <string android:name="screen2desc">We Design Furniture For Your Comfort</string>
+    <string android:name="screen3desc">Discover elegant and Affordable Furniture For Good Room</string>
+    <string android:name="startDesc">screen description</string>
+</resources>

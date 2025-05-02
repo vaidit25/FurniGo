@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pin"
+    tools:context=".AboutUsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/anim"
+                android:layout_marginTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/aboutus" />
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="FurniGo"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="About Us"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_us_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Welcome to FurniGo, your one-stop shop for creating the home of your dreams. We offer a wide selection of high-quality furniture, from classic to contemporary styles, to suit every taste and budget.  Our mission is to provide exceptional furniture and unparalleled customer service.  We believe that your home should be a reflection of your unique style, and we're here to help you make that happen. We carefully curate our collection, sourcing pieces from trusted manufacturers known for their craftsmanship and attention to detail.  From sofas and chairs to beds and dining tables, we have everything you need to furnish your entire home.  We are committed to providing you with a seamless and enjoyable shopping experience.  Our knowledgeable team is always available to answer your questions and offer expert advice.  We also offer convenient delivery and assembly services to make your life easier." />
+
+            <TextView
+                android:id="@+id/contact_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Contact Us"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contact_us_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="232 Vesu \citytown, IND 395007\nPhone: (+91) 9726862500\nEmail: info@furnigo.com" />
+
+            <TextView
+                android:id="@+id/follow_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Follow Us:"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/facebook_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/facebook"
+                    android:contentDescription="Facebook"
+                    android:layout_marginEnd="8dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/instagram_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/instagram"
+                    android:contentDescription="Instagram" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

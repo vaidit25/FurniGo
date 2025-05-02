@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:elevation="4dp"
+    android:clipToPadding="false"
+    android:clipChildren="false">
+
+    <!-- Store Image -->
+    <ImageView
+        android:id="@+id/storeImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Store Name -->
+    <TextView
+        android:id="@+id/storeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Store Mobile -->
+    <TextView
+        android:id="@+id/storeMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No."
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:drawableStart="@drawable/baseline_phone_24"
+        android:drawablePadding="8dp"
+        android:paddingVertical="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+    <!-- Store Address -->
+    <TextView
+        android:id="@+id/storeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store Address"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:drawableStart="@drawable/baseline_location_pin_24"
+        android:drawablePadding="8dp"
+        android:paddingVertical="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+    <!-- Store Pincode -->
+    <TextView
+        android:id="@+id/storePincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pincode"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:drawableStart="@drawable/baseline_home2_24"
+        android:drawablePadding="8dp"
+        android:paddingVertical="4dp" />
+</LinearLayout>

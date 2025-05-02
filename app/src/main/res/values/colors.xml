@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8691f7</color>
+    <color name="grey">#808080</color>
+    <color name="blueColor">#1135FF</color>
+    <color name="ThemeTextClr">#2E0842</color>
+    <color name="HomeToolbarBtmNvVewClr">#bf0d32</color>"
+
+</resources>
